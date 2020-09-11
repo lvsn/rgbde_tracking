@@ -11,24 +11,25 @@ Download the evaluation dataset [here (12 GB)](http://rachmaninoff.gel.ulaval.ca
 
 The dataset contains multiple sequences each in different folder.
 Each sequence contains the following files:
-    * `camera.json`: RGB-D sensor (Microsoft Kinect Azure) intrinsic calibration
-    * `dvs.json`: Event based sensor (DAVIS346) intrinsic calibration
-    * `transfo_mat.npy`: Extrinsic calibration
-    * `fevents.npz`: Events data of shape 4xN (Timestamps, x, y, Polarity) 
-    * `davis_frame.npz`: Grayscale frame record from the event sensor    
-    * `davis_frame_ts.npz`: Timestamps associated to each grayscale frame
-    * `frames.npz`: RGB-D frames from the Microsoft Kinect Azure
-    * `ts_frames.npz`: Timestamps associated to each RGB-D frame
-    * `poses.npy`: Ground truth 6DoF poses
+
+ * `camera.json`: RGB-D sensor (Microsoft Kinect Azure) intrinsic calibration
+ * `dvs.json`: Event based sensor (DAVIS346) intrinsic calibration
+ * `transfo_mat.npy`: Extrinsic calibration
+ * `fevents.npz`: Events data of shape 4xN (Timestamps, x, y, Polarity) 
+ * `davis_frame.npz`: Grayscale frame record from the event sensor    
+ * `davis_frame_ts.npz`: Timestamps associated to each grayscale frame
+ * `frames.npz`: RGB-D frames from the Microsoft Kinect Azure
+ * `ts_frames.npz`: Timestamps associated to each RGB-D frame
+ * `poses.npy`: Ground truth 6DoF poses
 
 ## Tracker
 
 ### Download
 
 Download and extract:
-    * [3D model](http://rachmaninoff.gel.ulaval.ca/static/6dofobjecttracking/dragon_model.tar.gz)
-    * [pre-trained networks](http://rachmaninoff.gel.ulaval.ca/static/rgbde_tracking/rgbde_model.zip)
-    * [dataset](http://rachmaninoff.gel.ulaval.ca/static/rgbde_tracking/rgbde_dataset.zip)
+ * [3D model](http://rachmaninoff.gel.ulaval.ca/static/6dofobjecttracking/dragon_model.tar.gz)
+ * [pre-trained networks](http://rachmaninoff.gel.ulaval.ca/static/rgbde_tracking/rgbde_model.zip)
+ * [dataset](http://rachmaninoff.gel.ulaval.ca/static/rgbde_tracking/rgbde_dataset.zip)
 
 ### Running tracker
 

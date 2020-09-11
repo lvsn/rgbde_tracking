@@ -48,6 +48,7 @@ python tracking_event_6dof/inference/tracker_failure.py \
     -e ./model/event
     -f ./model/frame
     -d ./dataset
+    -m ./dragon
 ```
 
 To generate video result of each sequence:
@@ -56,6 +57,7 @@ python tracking_event_6dof/inference/tracker_failure.py \
     -e ./model/event
     -f ./model/frame
     -d ./dataset
+    -m ./dragon
     -a /path/to/folder/to/save/videos
 ```
 

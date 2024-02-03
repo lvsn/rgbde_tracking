@@ -7,7 +7,7 @@ Evaluation code and dataset from "RGB-D-E: Event Camera Calibration for Fast 6-D
 
 ## Evaluation Dataset
 
-Download the evaluation dataset [here (12 GB)](http://rachmaninoff.gel.ulaval.ca/static/rgbde_tracking/rgbde_dataset.zip).
+Download the evaluation dataset [here (12 GB)](https://hdrdb-public.s3.valeria.science/rgbde/rgbde_dataset.zip).
 
 The dataset contains multiple sequences each in different folder.
 Each sequence contains the following files:
@@ -27,9 +27,9 @@ Each sequence contains the following files:
 ### Download
 
 Download and extract:
- * [3D model](http://rachmaninoff.gel.ulaval.ca/static/6dofobjecttracking/dragon_model.tar.gz)
- * [pre-trained networks](http://rachmaninoff.gel.ulaval.ca/static/rgbde_tracking/rgbde_model.zip)
- * [dataset](http://rachmaninoff.gel.ulaval.ca/static/rgbde_tracking/rgbde_dataset.zip)
+ * [3D model](https://hdrdb-public.s3.valeria.science/6dofobjecttracking/dragon_model.tar.gz)
+ * [pre-trained networks](https://hdrdb-public.s3.valeria.science/rgbde/rgbde_model.zip)
+ * [dataset](https://hdrdb-public.s3.valeria.science/rgbde/rgbde_dataset.zip)
 
 ### Running tracker
 
